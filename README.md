@@ -27,3 +27,8 @@ nvm install --lts
 # 安裝最新版(與上面選一個就可以測node)
 nvm install node
 ```
+
+# Windows 用 nvm 管好你的 node 版本
+[GitHub - nvm-windows](https://github.com/coreybutler/nvm-windows/releases)  
+下載 nvm-setup.zip 解壓縮會有 nvm-setup.exe 執行後安裝完畢  
+
