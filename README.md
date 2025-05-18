@@ -32,3 +32,36 @@ nvm install node
 [GitHub - nvm-windows](https://github.com/coreybutler/nvm-windows/releases)  
 下載 nvm-setup.zip 解壓縮會有 nvm-setup.exe 執行後安裝完畢  
 
+# nvm 基本操作
+```shell=
+nvm version
+```
+檢查是否安裝成功  
+
+```shell=
+nvm list available
+```
+查看可安裝的版本號  
+
+```shell=
+nvm list
+```
+查本機安裝過的版本  
+
+```shell=
+nvm install 版本號  
+```
+安裝指定版本  
+
+```shell=
+nvm use 版本號
+```
+使用指定版本  
+
+```shell=
+node -v
+npm -v
+```
+檢查一下目前 node 與 npm 的版本  
+
+記得使用==系統管理員模式==就能正常使用  
