@@ -4,7 +4,7 @@
 ---
 
 # WSL2 用 nvm 管好你的 node 版本
-```bash=
+```bash
 # 查 Ubuntu 版本
 lsb_release -dc
 
@@ -33,32 +33,32 @@ nvm install node
 下載 nvm-setup.zip 解壓縮會有 nvm-setup.exe 執行後安裝完畢  
 
 # nvm 基本操作
-```shell=
+```shell
 nvm version
 ```
 檢查是否安裝成功  
 
-```shell=
+```shell
 nvm list available
 ```
 查看可安裝的版本號  
 
-```shell=
+```shell
 nvm list
 ```
 查本機安裝過的版本  
 
-```shell=
+```shell
 nvm install 版本號  
 ```
 安裝指定版本  
 
-```shell=
+```shell
 nvm use 版本號
 ```
 使用指定版本  
 
-```shell=
+```shell
 node -v
 npm -v
 ```
